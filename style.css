@@ -1,0 +1,21 @@
+/* ---FONTS ---  */
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans:300,400,600,700");
+
+/*---Components---*/
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/dropdown.css");
+@import url("components/cards.css");
+@import url("components/badges.css");
+@import url("components/banners.css");
+@import url("components/tabs.css");
+@import url("components/flex-lists.css");
+@import url("components/share-links.css");
+
+body{
+	font-family: "Droid Sans", "Open Sans", "sans-serif";
+}
+h1, h2, h3, h4, h5{
+	font-family: "Open Sans", "sans-serif";
+}
+
