@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel= "stylesheet"> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel= "stylesheet"> 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/08e2600aff.js"></script>
+	<script src="https://use.fontawesome.com/08e2600aff.js"></script>
+    <script src="./vex-popup/dist/js/vex.combined.min.js"></script>
+    <link rel="stylesheet" href="./vex-popup/dist/css/vex.css" />
+    <link rel="stylesheet" href="./vex-popup/dist/css/vex-theme-plain.css" />
+    <link rel="stylesheet" href="./vex-popup/dist/css/vex-theme-os.css" />
     <link href='style.css' rel='stylesheet' type='text/css'>
+    <script src="app.js"></script>
 	</head>
 	<body>
 	<div class="container">
@@ -19,6 +25,7 @@
 		<a href="#" class="btn-twitter">Begin</a>
 		<a href="#">Book Now</a>
 	</div>
+	
 
 <div class="container">
 		<h1>Dropdown Menus</h1>
@@ -44,6 +51,58 @@
 	    <li><a href="#">Logout</a></li>
   	</ul>
 	</div>
+</div>
+
+
+<div class="container">
+	<h1>NavBars</h1>
+	<div class="container">
+		<!--Boring Navbar w/Bootstrap-->
+		<nav class="navbar navbar1">
+		  <div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">WebSiteName</a>
+    		</div>
+    	<ul class="nav navbar-nav">
+      		<li><a href="#">Home</a></li>
+      		<li><a href="#">Page 1</a></li>
+      		<li><a href="#">Page 2</a></li>
+      		<li><a href="#">Page 3</a></li>
+    	</ul>
+  		</div></nav>
+  		
+
+
+</div>
+
+<div class="container">
+	<h1>Modals</h1>
+	<div class="container">
+		<button class="modalButton1" data-toggle="modal" data-target="#modal1"><a href="#">Call to Action</a></button>
+			<!-- Modal -->
+			<div id="myModal" class="modal fade" role="dialog">
+  				<div class="modal-dialog">
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">Header</h4>
+			      </div>
+			      <div class="modal-body">
+			        <p>Some text in the modal.  This were where info about your brand/comapny/product can go.</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		<br>
+		<button class="modalButton2"><a class="vex-plain-modal" href="#">Find out More</a></button>
+		<br>
+		<button class="modalButton3"><a class="vex-os-modal" href="#">Login</a></button>
+	</div>
+
 </div>
 
 <div class="container">

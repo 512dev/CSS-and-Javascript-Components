@@ -1,0 +1,12 @@
+.navbar1{
+	background-color: #A09BE7;
+
+}
+.navbar1 a{
+	color:#F2F2F2;
+}
+.navbar .navbar-nav>li>a:hover,
+.navbar .navbar-nav>li>a:focus {
+  color: #333;
+  background-color: transparent;
+}
